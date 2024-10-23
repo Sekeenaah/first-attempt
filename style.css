@@ -1,0 +1,73 @@
+
+
+
+h1 {
+    margin: 0;
+    color: black;
+    font-size: 40px;
+    font-style: italic;
+    display: block;
+   }
+   
+   span {
+    display: flex;
+   }
+   
+   label {
+    display: block;
+    margin-bottom: 5px;
+   }
+   
+   #signup_form,
+   #login_form,
+   #add_user_form {
+    padding: 10px 30px;
+   background-color: grey;
+   display: flex;
+   justify-content: center;
+   }
+   
+   
+   #signup_form input,
+   #login_form input,
+   #add_user_form input {
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 5px;
+    font-style: oblique;
+    margin-bottom: 15px;
+   }
+   
+   
+   #signup_form button,
+   #login_form button, 
+   #add_user_form button {
+    padding: 5px 85px;
+    background: #333;
+    color: white;
+    border-radius: 5px;
+   }
+   
+   #signup_form button:hover,
+   #login_form button:hover, 
+   #add_user_form button:hover {
+    background-color: white;
+    color: black;
+   
+    cursor: pointer;
+   }
+   
+   .flex {
+    display: flex;
+   align-items: top;
+    flex-direction: row;
+    gap: 5px;
+   }
+   
+   body {
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   }
+   
